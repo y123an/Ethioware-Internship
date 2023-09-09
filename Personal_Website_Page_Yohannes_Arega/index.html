@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <title>Yohannes | Portfoilo</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h2>ebishu</h2>
+        </div>
+        <div id="menubar" class="menu">
+          <button onclick="openMenu()">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+        <div id="closebar" class="close hidden">
+          <button onclick="closeMenu()">
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <div id="navlist" class="nav-list">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div class="resume">
+            <button>
+              <a href="./asset/resume/Yohannes-Arega.pdf" download>Resume</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero" id="home">
+        <div class="hero-text">
+          <h1>Hi, I'm Yohannes</h1>
+          <p>
+            I can develope a web Application that is Fullstack with quality and
+            speed that meets over the client expectation
+          </p>
+        </div>
+        <div class="hero-img">
+          <img
+            src="./asset/images/programer_wave.png"
+            alt="a porogarmer waving"
+          />
+        </div>
+      </div>
+
+      <div class="about" id="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>INTRODUCTION</h2>
+            <h1>Overview</h1>
+            <p>
+              I'm a web developer with experience in JavaScript, and expertise
+              in frameworks like React , Node.js , Next.js , vite and Tailwind
+              CSS. I'm a quick learner and collaborate closely with clients to
+              create efficient, scalable, and user-friendly solutions that solve
+              real-world problems.
+            </p>
+          </div>
+          <h1>Technical Skill</h1>
+          <div class="skills">
+            <div class="technical-skill">
+              <div class="programing-language">
+                <h2>Programing Language</h2>
+                <ul>
+                  <li>
+                    <img src="./asset/images/tech/css.png" alt="javascript" />
+                  </li>
+                  <li>
+                    <img src="./asset/images/tech/html.png" alt="javascript" />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/javascript.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img src="./asset/images/tech/php1.png" alt="javascript" />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/pngegg.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/pngwing.com.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img src="./asset/images/tech/java.png" alt="javascript" />
+                  </li>
+                </ul>
+              </div>
+              <div class="frameworks">
+                <h2>FrameWorks</h2>
+                <ul>
+                  <li>
+                    <img
+                      src="./asset/images/tech/reactjs.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/nodejs.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/nextjs.png"
+                      alt="javascript"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="./asset/images/tech/express.png"
+                      alt="javascript"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="explain"
+          src="./asset/images/explain.png"
+          alt="explaining"
+        />
+      </div>
+
+      <div class="project" id="project">
+        <div class="project-content">
+          <div class="project-text">
+            <h2>MY WORK</h2>
+            <h1>Projects.</h1>
+            <p>
+              Following projects showcases my skills and experience through
+              real-world examples of my work. Each project is briefly described
+              with links to code repositories and live demos in it. It reflects
+              my ability on the technologies i have listed above.
+            </p>
+          </div>
+          <div class="project-cards">
+            <div class="card">
+              <div class="image">
+                <img src="./asset/images/car_showcase.png" alt="car_showcase" />
+              </div>
+              <div class="discription">
+                <h1>Car Showcase</h1>
+                <p>
+                  Web application that enables users to showcase different types
+                  of car, and help them with their search by the filtering
+                  features provided
+                </p>
+                <ul>
+                  <li>#next.js</li>
+                  <li>#mongodb</li>
+                </ul>
+                <div class="links">
+                  <button
+                    class="live"
+                    name="car_showcase"
+                    onclick="playVideo(event)"
+                  >
+                    Live Demo
+                  </button>
+                  <a
+                    class="srce"
+                    href="https://github.com/y123an/car_showcase_app"
+                    target="_blank"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="./asset/images/ethio_edu.png" alt="ethio edu" />
+              </div>
+              <div class="discription">
+                <h1>EthioEdu</h1>
+                <p>
+                  A comprehensive Educational videos streaming app that lets us
+                  to stream other videod or uplaod our own videos.and it has
+                  authentication and autherization for users
+                </p>
+                <ul>
+                  <li>#react</li>
+                  <li>#express.js</li>
+                  <li>#node.js</li>
+                  <li>#mongodb</li>
+                </ul>
+                <div class="links">
+                  <button
+                    class="live"
+                    name="ethio_edu"
+                    onclick="playVideo(event)"
+                  >
+                    Live Demo
+                  </button>
+                  <a class="srce" href="">Source Code</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="./asset/images/kuret.png" alt="car_showcase" />
+              </div>
+              <div class="discription">
+                <h1>Kuret</h1>
+                <p>
+                  A comprehensive booking platform that allows users to book
+                  movies, concerts, and sports, and offers more recommendations
+                  for popular activities.
+                </p>
+                <ul>
+                  <li>#react</li>
+                  <li>#express.js</li>
+                  <li>#node.js</li>
+                  <li>#mongodb</li>
+                </ul>
+                <div class="links">
+                  <button class="live" name="kuret" onclick="playVideo(event)">
+                    Live Demo
+                  </button>
+                  <a
+                    class="srce"
+                    href="https://github.com/y123an/ticket_frontend"
+                    target="_blank"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image">
+                <img src="./asset/images/waliya.png" alt="car_showcase" />
+              </div>
+              <div class="discription">
+                <h1>Kuret</h1>
+                <p>
+                  A comprehensive online banking system that will lets you
+                  transfer, deposit and withdraw from you account with an admin
+                  page that shows th activites that happen in the app
+                </p>
+                <ul>
+                  <li>#Html</li>
+                  <li>#Css</li>
+                  <li>#Javascript</li>
+                  <li>#PHP</li>
+                </ul>
+                <div class="links">
+                  <button class="live" name="waliya" onclick="playVideo(event)">
+                    Live Demo
+                  </button>
+                  <a
+                    class="srce"
+                    href="https://github.com/y123an/ticket_frontend"
+                    target="_blank"
+                    >Source Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="video-container">
+          <div class="video">
+            <video id="project-video" autoplay controls></video>
+          </div>
+          <button class="close-video" onclick="closeVideo()">
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+      </div>
+      <div id="contact">
+        <div class="container">
+          <span class="big-circle"></span>
+          <img src="img/shape.png" class="square" alt="" />
+          <div class="form">
+            <div class="contact-info">
+              <h3 class="title">Let's get in touch</h3>
+              <p class="text">
+                Share your idea to me lets make it comes to live by working
+                together
+              </p>
+
+              <div class="info">
+                <div class="information">
+                  <div>
+                    <i class="icon fa fa-map-marker"></i>
+                  </div>
+                  <p>Addis Ababa, Figa</p>
+                </div>
+                <div class="information">
+                  <div>
+                    <i class="icon fa fa-envelope-o"></i>
+                  </div>
+                  <p>yoahnnesaregahabte@gmail.com</p>
+                </div>
+                <div class="information">
+                  <div>
+                    <i class="icon fa fa-phone"></i>
+                  </div>
+                  <p>+2519 56470467</p>
+                </div>
+              </div>
+
+              <div class="social-media">
+                <p>Connect with me :</p>
+                <div class="social-icons">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <span class="circle one"></span>
+              <span class="circle two"></span>
+
+              <form action="index.html" autocomplete="off">
+                <h3 class="title">Contact Me</h3>
+                <div class="input-container">
+                  <input
+                    type="text"
+                    name="name"
+                    class="input"
+                    placeholder="name"
+                  />
+                </div>
+                <div class="input-container">
+                  <input
+                    type="email"
+                    name="email"
+                    class="input"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="input-container">
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="input"
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="input-container textarea">
+                  <textarea
+                    name="message"
+                    class="input"
+                    placeholder="message"
+                  ></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

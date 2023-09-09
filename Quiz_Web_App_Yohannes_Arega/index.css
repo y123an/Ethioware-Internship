@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: rgb(10, 233, 10);
+  padding: 15px;
+}
+
+.ans-container {
+  display: flex;
+}
+
+.questions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.question-card {
+  border: 1px solid black;
+  padding: 70px;
+  border-radius: 15px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.question {
+  font-size: 20px;
+}
