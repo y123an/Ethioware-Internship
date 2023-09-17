@@ -1,34 +1,93 @@
+.progress-container {
+  height: 10px;
+  width: 400px;
+  background-color: rgb(160, 157, 157);
+  border-radius: 15px;
+}
+
 * {
   margin: 0;
-  padding: 0;
 }
-
+body {
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
 nav {
-  background: rgb(10, 233, 10);
-  padding: 15px;
+  background-color: rgb(70, 70, 70);
+  padding: 20px;
+  color: white;
 }
 
-.ans-container {
-  display: flex;
-}
-
-.questions-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-
-.question-card {
-  border: 1px solid black;
-  padding: 70px;
+#progress {
+  height: 10px;
+  width: 80px;
+  background-color: rgb(18, 20, 22);
   border-radius: 15px;
-  background-color: aliceblue;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#options-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+}
+#quiz-container {
+  padding: 100px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: rgb(214, 214, 199);
+}
+#question-container {
+  font-size: 20px;
+  font-weight: 400;
+}
+button {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(124, 124, 214);
+  color: white;
 }
 
-.question {
+label {
+  display: flex;
+  gap: 10px;
+}
+button:hover {
+  background: white;
+  color: black;
+}
+
+#score-container {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  background: rgb(95, 207, 95);
+  padding: 70px;
+  border-radius: 15px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+#score {
   font-size: 20px;
+  color: aliceblue;
+}
+#options-container {
+  font-weight: thin;
+}
+
+#qn {
+  text-align: right;
+  margin-top: 10px;
 }

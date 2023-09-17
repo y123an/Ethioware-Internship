@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz App</title>
   </head>
   <body>
     <header>
@@ -16,27 +22,39 @@
     </header>
 
     <main>
-      <div class="questions-container">
-        <div class="question-card">
-          <p class="question">1 what is the captal city of Ethiopia</p>
-          <div class="ans-container">
-            <input type="radio" value="addis Ababa" name="q1" />
-            <p>Addis Ababa</p>
-          </div>
-          <div class="ans-container">
-            <input type="radio" value="adama" name="q1" />
-            <p>Adama</p>
-          </div>
-          <div class="ans-container">
-            <input type="radio" value="hawasa" name="q1" />
-            <p>Hawasa</p>
-          </div>
-          <div class="ans-container">
-            <input type="radio" value="welkite" name="q1" />
-            <p>Welkite</p>
-          </div>
+      <div class="progress-container">
+        <div id="progress"></div>
+        <p id="qn">0/10</p>
+      </div>
+
+      <div id="quiz-container">
+        <div id="question-container">
+          <p id="question">Question</p>
         </div>
+        <div id="options-container">
+          <label>
+            <input type="radio" name="options" value="option1" /> Option 1
+          </label>
+          <label>
+            <input type="radio" name="options" value="option2" /> Option 2
+          </label>
+          <label>
+            <input type="radio" name="options" value="option3" /> Option 3
+          </label>
+          <label>
+            <input type="radio" name="options" value="option4" /> Option 4
+          </label>
+        </div>
+        <button id="next-button">Next</button>
       </div>
     </main>
+
+    <div id="score-container">
+      <h1>Your Score is</h1>
+      <p id="score">1/5</p>
+      <p id="comp">Complement</p>
+    </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
